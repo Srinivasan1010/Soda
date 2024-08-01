@@ -1,0 +1,15 @@
+data_source snowflake:  
+    type: snowflake
+    account: kx16533.central-india.azure
+    username: SRINIVASAN2020
+    password: Srikoanu@2020
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: compute_wh
+    schema: TPCH_SF10
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: cfbb4737-df1e-4156-9ba3-8db5a8a73c50
+  api_key_secret: fr4LqFLa_UjJSeSTgk2BP6b036tuoUbJcPLQBCyfxfJpPaypUKat2w
